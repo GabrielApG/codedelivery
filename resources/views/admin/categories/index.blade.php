@@ -13,7 +13,7 @@
             <tr>
                 <th>ID</th>
                 <th>NOME</th>
-                <th>AÇÃO</th>
+                <th>AÃ‡Ã•ES</th>
             </tr>
             <tbody>
             @foreach($categories as $category)

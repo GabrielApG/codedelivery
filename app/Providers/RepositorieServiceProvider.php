@@ -19,5 +19,10 @@ class RepositorieServiceProvider extends ServiceProvider
             'CodeDelivery\Repositories\CategoryRepository', // Isso está falando que toda as vezes que acessar o CategoryRepository ele var direcionar para CategoryRepositoryEloquent
                 'CodeDelivery\Repositories\CategoryRepositoryEloquent'
         );
+
+        $this->app->bind(
+            'CodeDelivery\Repositories\ProductRepository',
+            'CodeDelivery\Repositories\ProductRepositoryEloquent'
+        );
     }
 }
